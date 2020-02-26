@@ -5,10 +5,29 @@
 .contact{
   cursor: pointer;
   color: skyblue;
-  padding: 3%;
+  padding: 1%;
 }
 
 .contact:hover{
   text-decoration: underline;
   color: aqua;
+}
+
+.card {
+  padding: 2%;
+}
+
+.btn{
+  padding: 2%;
+  border: solid 1px;
+  margin: 1% 0 1% 0;
+  width: 40%;
+}
+
+.col-md-6{
+  border-right: 0.5px groove;
+}
+
+.jumbotron{
+  text-align: center;
 }
