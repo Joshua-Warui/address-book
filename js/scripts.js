@@ -14,6 +14,23 @@ function Address(street,city,county){
 
 
 $(function(){
+  $("#add-address").click(function(){
+    $("#new-addresses").append('<div class="new-address">' +
+                                '<div class="form-group">' +
+                                  '<label for="new-street">Street</label>' +
+                                  '<input type="text" class="form-group new-street form-control">' +
+                                '</div>' +
+                                '<div class="form-group">' +
+                                  '<label for="new-city">City</label>' +
+                                  '<input type="text" class="form-group new-city form-control">' +
+                                '</div>' +
+                                '<div class="form-group">' +
+                                  '<label for="new-county">County</label>' +
+                                  '<input type="text" class="form-group new-county form-control">' +
+                                '</div>' +
+                              '</div>');
+  });
+
   $("#new-contact").submit(function(event){
     event.preventDefault();
     var inputFirstName = $("#new-first-name").val();
