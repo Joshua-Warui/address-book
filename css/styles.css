@@ -1,0 +1,14 @@
+#show-contact {
+  display: none;
+}
+
+.contact{
+  cursor: pointer;
+  color: skyblue;
+  padding: 3%;
+}
+
+.contact:hover{
+  text-decoration: underline;
+  color: aqua;
+}
